@@ -9,8 +9,6 @@ tags:
 categories:
   - Java
 ---
-Photo by [Theng](https://unsplash.com/pt-br/@tantheng?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/ct1Usm9t4_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
 After moving SFSPro to Java 14, and then Java 15, I wanted to explore the possibility of signing the installer package created by jpackage. Not being a Windows developer, I found most of the documentation to be unclear at best. I was able to piece together enough documentation to figure out how things worked and I thought I'd lay it all out for you here.
 
 ## Process
@@ -31,3 +29,5 @@ Some more helpful links for understanding the above command:
 * [Signtool documentation](https://docs.microsoft.com/en-us/windows/win32/seccrypto/signtool)
 * [Sectigo Timestamp Server](https://sectigo.com/resource-library/time-stamping-server)
 * [Signing Your MSI](https://www.exemsi.com/documentation/sign-your-msi/)
+
+Photo by [Theng](https://unsplash.com/pt-br/@tantheng?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/ct1Usm9t4_c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
