@@ -1,0 +1,122 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ hero-image ]
+hero:
+  enable: 1
+  image: "images/profile.png"
+  image_alt: "Jay Burgess"
+  before_title: "Hello, <b>my name is</b>"
+  title: "<b>Jay</b> Burgess"
+  after_title: "I am a <strong>Software Developer</strong>"
+  description: "in Denver, CO. I am passionate about software architecture, design, and development. My primary focus is backend microservices and iOS/macOS applications."
+  bg_title: "Developer"
+
+  button1:
+    label: "Download CV"
+    link: "/files/resume.pdf"
+  button2:
+    label: "My Skills"
+    link: "#skills-section"
+  info:
+    - num: "20<strong>+</strong>"
+      value: "Years of <strong>Experience</strong>"
+
+### Skills [ skills ]
+skills:
+  enable: 1
+  title: "Professional Skills"
+  bg_title: "Skills"
+
+  column1:
+    items:
+      - label: "Java"
+        text: "Client based development using Swing and JavaFX. Library and server side development utilizing a myriad of libraries."
+        value: "99"
+
+      - label: "Go"
+        text: "Large scale microservices developement for deployment in the cloud."
+        value: "85"
+
+      - label: "Swift"
+        text: "Basic iOS applications in Swift utilizing SwiftUI for iPhones, iPads, and Macs."
+        value: "75"
+
+      - label: "Python"
+        text: "Scripts and functional test drivers for gRPC, HTTP, and SQL validation utilizing Python 3."
+        value: "50"
+
+  column2:
+    items:
+      - label: "Relational Databases/SQL"
+        text: "Large scale database solutions using Sybase and PostgreSQL. Experienced in large scale query optimization."
+        value: "90"
+
+      - label: "Docker"
+        text: "Utilizing Docker for the deployment of microservices in the cloud."
+        value: "75"
+
+      - label: "SCM"
+        text: "Utilized Git since 2017 with both GitHub and Bitbucket. Previously used SVN and ClearCase."
+        value: "95"
+
+  column3:
+    items:
+      - label: "macOS"
+        text: "I've used macOS as my primary operating system for over 20 years. I have spent the last few years developing a world class, cloud based MDM solution for macOS."
+        value: "90"
+
+      - label: "Linux"
+        text: "I've been a Linux user and administrator for the last 25 years. Have built and run my own servers at home as well as using it for professional development and deployments. Extremely familiar with the command line and shell scripting."
+        value: "90"
+
+### Resume [ resume ]
+resume:
+  enable: 1
+  title: "Resume"
+  bg_title: "History"
+
+  education:
+    title: "Education"
+    items:
+      - name: "University of Colorado, Denver"
+        subname: "M.S. Computer Science"
+        period: "2008"
+
+      - name: "Southern Illinois University, Carbondale"
+        subname: "B.S. Computer Science"
+        period: "1999"
+
+  experience:
+    title: "Experience"
+    items:
+      - name: "Principal Software Engineer"
+        subname: "JumpCloud"
+        period: "2021 - <b>Present</b>"
+        text: "Develop a large scale, cloud based Apple Mobile Device Management (MDM) solution for macOS and iOS devices."
+
+      - name: "President"
+        subname: "Justified Solutions"
+        period: "2010 - <b>Present</b>"
+        text: "Developed an application for Colorado Family Law Firms that generates a Sworn Financial Statement for their clients."
+
+      - name: "Senior Director, IP Video Architecture"
+        subname: "Comcast"
+        period: "2010 - 2020"
+        text: "Develop a highly scalable solution for IP video processing for linear, VOD, and CloudDVR. Started as a Principal SWE developing CDN routing technologies before leading the IP Video software engineering organization. Finally, moved to leading the IP Video architecture team tasked with finding solutions to the most difficult issues in video delivery."
+
+      - name: "Staff Software Engineer"
+        subname: "Lockheed Martin"
+        period: "1999 - 2010"
+        text: "Began my career developing asset tracking software for USTRANSCOM. Moved on to a short rotation working on the UK Census in 2001, before returning to the USTRANSCOM project where I became a system administrator for a couple of years before returning to software development. Moved on to a USAF project in 2005 where I lead a team of developers in creating a visualization tool for viewing location based data related to sensor output."
+
+### Blog [ blog ]
+blog:
+  enable: 1
+  title: "Latest Articles"
+  bg_title: "Articles"
+  button:
+    label: "View Articles"
+    link: "blog/"

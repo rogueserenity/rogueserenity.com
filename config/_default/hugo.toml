@@ -1,0 +1,13 @@
+baseURL = 'https://rogueserenity.com/'
+languageCode = 'en-us'
+title = 'Rogue Serenity'
+theme = "luique"
+summaryLength = 20
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

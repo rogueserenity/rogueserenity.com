@@ -1,0 +1,43 @@
+defaultSkin = "dark"
+dateFormat = "January 2, 2006"
+authorName = "Jay Burgess"
+
+# Preloader Settings
+[preloader]
+logo = "images/logo/logo1024.png"
+alt = "Rogue Serenity"
+
+# Header Settings
+[header]
+logo = "images/logo/logo64.png"
+logo_alt =  "Rogue Serenity"
+
+[footer]
+copyright = "© 2023 Jay Burgess. All rights reserved"
+
+[portfolio]
+homeNumOfItems = 0
+
+[[social]]
+title = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/jasonaburgess/"
+weight = 1
+[[social]]
+title = "GitHub"
+icon = "fab fa-github"
+url = "https://github.com/rogueserenity/"
+weight = 2
+[[social]]
+title = "Email"
+icon = "fas fa-envelope"
+url = "mailto:jay@rogueserenity.com"
+weight = 3
+
+[sidebar]
+enable = 1 #SIDEBAR SHOW: [ 1 - yes, 0 - no ]
+search = 1 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
+latestPosts = 0 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
+categories = 1 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+tags = 1 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+
