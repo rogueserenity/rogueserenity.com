@@ -13,7 +13,7 @@ enableSearch = true
 enableCodeCopy = false
 
 # mainSections = ["section1", "section2"]
-# robots = ""
+robots = "none"
 
 disableImageOptimization = false
 disableTextInHeader = false
