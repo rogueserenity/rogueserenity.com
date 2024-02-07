@@ -1,7 +1,6 @@
 ---
 title: jpackage and Signing Windows MSI Installers
 date: 2020-10-31
-featureImage: images/articles/coffee-window.jpg
 description: Signing MSI Installers Created by jpackage
 tags:
   - java
