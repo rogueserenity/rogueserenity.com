@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Rogue Serenity"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "January 2, 2006"
+logo = "images/logo/logo64.png"
+description = ""
+
+[author]
+name = "Jay Burgess"
+image = "images/author.png"
+headline = "developer, architect, tech geek"
+links = [
+    { github = "https://github.com/rogueserenity/" },
+    { linkedin = "https://www.linkedin.com/in/jasonaburgess/" },
+    { stack-overflow = "https://stackoverflow.com/users/17263826/rogueserenity" },
+    { email = "mailto:jay@rogueserenity.com" },
+]
